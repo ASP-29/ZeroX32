@@ -9,9 +9,13 @@ Powered by ESP3-S3 for main microcontroller
   - Wifi beacon attack with name custom ssid list and random name
   - Evil portal with html page up to 5 different page for each device and domains name can be customized
   - Packet Monitor for detecting deauth attack from other attacker in nearby
+
+
 ##Bluetooth
   - Ble spam Ios,swift pair,samsung and google fast pair
   - Remote controller that can act like Media controll and mouse
+
+
 ##Infrared
   - Read for custom ir remote
   - Load the ir remote data from files,also compatible with flipper zero ir database
@@ -148,6 +152,8 @@ Powered by ESP3-S3 for main microcontroller
  - related repo
    https://github.com/tobiabocchi/flipperzero-bruteforce
    https://github.com/UberGuidoZ/Flipper
+
+
 ##Bad USB
  - Running your selected ducky script payload,inspired by spacehuhn's wifi duck project https://github.com/SpacehuhnTech/WiFiDuck and forked repo by wasdwasd0105 https://github.com/wasdwasd0105/SuperWiFiDuck
  - Supported with autorun option when usb is plug in on target
@@ -155,14 +161,18 @@ Powered by ESP3-S3 for main microcontroller
  - related repo
    https://github.com/bst04/payloads_flipperZero
    https://github.com/MarkCyber/BadUSB
+
+
 ##File Manager
  - Builtin interactive file explorer can performing load saved files,firmware update,rename,delete and managing html files for evil portal
  - Supported web server for file upload
+
 
 ##NRF24L01
  - Can performing a signal jamming like bluetooth,wifi and related connectivity around 2.4Ghz
  - Signal Analyzer / Spectrum Analyzer for monitoring 2.4ghz signal traffic
  - Inspired by cifertech's project https://github.com/cifertech/nRFBox
+
 
 ##Headless Controll
  - can be controlled headless but with limited features with a web server
