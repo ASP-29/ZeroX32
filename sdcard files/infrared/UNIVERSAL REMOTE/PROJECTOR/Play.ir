@@ -1,0 +1,63 @@
+Filetype: IR signals file
+Version: 1
+
+name: ir_1
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: A9 56 00 00
+#
+name: ir_2
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 5E A1 00 00
+#
+name: ir_3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 93 00 00 00
+#
+name: ir_4
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 15 00 00 00
+#
+name: ir_5
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 18 E7 00 00
+#
+name: ir_6
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8981 4411 532 1616 557 1592 557 465 556 465 556 466 555 467 554 468 554 1595 554 467 554 468 554 1595 554 467 580 1569 581 1568 581 1568 581 1569 580 441 581 1569 580 442 580 1570 579 1594 555 467 555 443 579 442 580 1594 554 467 555 1594 555 467 555 468 554 1595 554 1595 528 1620 529 42169 9008 2106 531
+#
+name: ir_7
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 41 00 00 00
+#
+name: ir_8
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 03 00 00 00
+#
+name: ir_9
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 21 DE 00 00
+#
+name: ir_10
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 09 F6 00 00
+#

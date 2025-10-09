@@ -1,0 +1,55 @@
+#
+name: ir 0
+protocol: NEC
+value: 0xC956A
+bits: 32
+#
+name: ir 1
+protocol: NEC
+value: 0xC1AA7A85
+bits: 32
+#
+name: ir 2
+protocol: NEC
+value: 0xFFC936
+bits: 32
+#
+name: ir 3
+protocol: NEC
+value: 0x807FA857
+bits: 32
+#
+name: ir 4
+protocol: NEC
+value: 0x1DEA18E7
+bits: 32
+#
+name: ir 5
+protocol: NEC
+value: 0xC12F58A7
+bits: 32
+#
+name: ir 6
+protocol: NEC
+value: 0x8C73827D
+bits: 32
+#
+name: ir 7
+protocol: NEC
+value: 0x807FC03F
+bits: 32
+#
+name: ir 8
+protocol: NEC
+value: 0xC847B
+bits: 32
+#
+name: ir 9
+protocol: NEC
+value: 0x61D6906F
+bits: 32
+#
+name: ir 10
+protocol: MULTIBRACKETS
+value: 0xFF
+bits: 8

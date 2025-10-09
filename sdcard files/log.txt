@@ -1,0 +1,12 @@
+client -> 172.0.0.2 -> login.fake.site
+host -> connectivitycheck.gstatic.com
+host -> login.fake.site
+
+client -> 172.0.0.2 -> login.fake.site
+host -> connectivitycheck.gstatic.com
+host -> login.fake.site
+client -> 172.0.0.3 -> login.fake.site
+
+host -> connectivitycheck.gstatic.com
+host -> wifi.login
+

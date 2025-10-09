@@ -1,0 +1,199 @@
+#
+name: ir 0
+protocol: NEC
+value: 0x10EF28D7
+bits: 32
+#
+name: ir 1
+protocol: NEC
+value: 0x807F22DD
+bits: 32
+#
+name: ir 2
+protocol: NEC
+value: 0xE172946B
+bits: 32
+#
+name: ir 3
+protocol: NEC
+value: 0xC1AAC936
+bits: 32
+#
+name: ir 4
+protocol: NEC
+value: 0x40BF40BF
+bits: 32
+#
+name: ir 5
+protocol: UNKNOWN
+value: 0x281EC3A7
+bits: 52
+raw: 9086,4428,650,506,598,532,596,534,598,1638,598,1638,648,508,598,506,624,506,624,1638,598,506,624,506,598,1638,624,506,624,1612,624,1638,598,1638,624,1638,598,1638,596,1638,624,506,596,534,598,506,624,1640,596,534,596,506,622,508,598,532,596,1638,598,1638,622,1640,596,508,622,1638,598,510,620,482,648,482,622,508,622,508,622,482,648,482,622,508,622,1614,622,1614,650,1612,628,1608,648,1586,648,1614,622,1612,648,1614,622,14400,9122,2166,622
+#
+name: ir 6
+protocol: NEC
+value: 0x807F827D
+bits: 32
+#
+name: ir 7
+protocol: NEC
+value: 0x106813EC
+bits: 32
+#
+name: ir 8
+protocol: NEC
+value: 0x807F40BF
+bits: 32
+#
+name: ir 9
+protocol: NEC
+value: 0xCC00D02F
+bits: 32
+#
+name: ir 10
+protocol: NEC
+value: 0x4CB34AB5
+bits: 32
+#
+name: ir 11
+protocol: NEC
+value: 0x4FB5AA5
+bits: 32
+#
+name: ir 12
+protocol: NEC
+value: 0xC12F28D7
+bits: 32
+#
+name: ir 13
+protocol: NEC
+value: 0x8C73916E
+bits: 32
+#
+name: ir 14
+protocol: NEC_LIKE
+value: 0x61004C00
+bits: 32
+#
+name: ir 15
+protocol: UNKNOWN
+value: 0x716AE8AF
+bits: 58
+raw: 9034,4454,624,558,572,560,572,558,572,1690,572,1690,544,586,570,562,544,586,568,1666,572,560,570,558,572,1690,588,542,570,1692,546,1716,544,1716,546,1690,572,1664,598,1690,572,560,546,584,546,586,544,1716,544,560,570,588,544,586,544,560,570,1690,572,1690,570,1692,568,562,570,1690,546,586,544,588,544,536,594,536,594,536,594,536,596,534,596,534,596,1668,594,1666,568,1694,568,1668,596,1664,596,1666,596,1666,596,1640,596,13980,9042,2192,622,65535,0,30671,9042,2192,622,65535,0,30671,9042,2192,596,65535,0,30697,9042,2192,622
+#
+name: ir 16
+protocol: SAMSUNG
+value: 0xE0E0F00F
+bits: 32
+#
+name: ir 17
+protocol: NEC
+value: 0x40BF18E7
+bits: 32
+#
+name: ir 18
+protocol: NEC
+value: 0x1DEAB04F
+bits: 32
+#
+name: ir 19
+protocol: NEC
+value: 0x4CB351AE
+bits: 32
+#
+name: ir 20
+protocol: NEC
+value: 0xFF11EE
+bits: 32
+#
+name: ir 21
+protocol: NEC
+value: 0xE1A24AB5
+bits: 32
+#
+name: ir 22
+protocol: NEC
+value: 0x807F58A7
+bits: 32
+#
+name: ir 23
+protocol: UNKNOWN
+value: 0x9AD80A11
+bits: 52
+raw: 9034,4426,572,558,572,532,572,532,572,1664,570,1638,598,534,570,560,544,558,574,1636,598,534,570,560,546,1690,546,532,586,1648,572,1688,546,1690,546,1664,572,558,546,558,570,1664,544,560,570,508,624,534,570,1664,570,534,570,1664,570,1678,560,534,596,1638,598,1638,598,1638,570,508,622,494,610,508,596,508,596,508,678,426,676,428,674,456,648,454,676,1562,674,1560,676,1560,648,1586,648,1588,594,1640,596,1638,570,1664,596,14402,9016,2192,568
+#
+name: ir 24
+protocol: NEC
+value: 0xF20AF00F
+bits: 32
+#
+name: ir 25
+protocol: NEC
+value: 0xD1538877
+bits: 32
+#
+name: ir 26
+protocol: NEC
+value: 0xBD56A9
+bits: 32
+#
+name: ir 27
+protocol: NEC
+value: 0xE1728A75
+bits: 32
+#
+name: ir 28
+protocol: NEC
+value: 0xC03F40BF
+bits: 32
+#
+name: ir 29
+protocol: SHARP
+value: 0x5A5A
+bits: 15
+#
+name: ir 30
+protocol: SAMSUNG
+value: 0xE0E08B74
+bits: 32
+#
+name: ir 31
+protocol: NEC
+value: 0x61A8A55A
+bits: 32
+#
+name: ir 32
+protocol: NEC
+value: 0x120AE41B
+bits: 32
+#
+name: ir 33
+protocol: UNKNOWN
+value: 0xE59B459B
+bits: 30
+raw: 2298,612,572,586,1150,584,572,584,572,1164,570,1192,546,1190,1124,612,546,620,1142,584,572,586,572,586,572,584,572,586,570,65535,0,10041,2306,612,572,586,1150,586,596,560,572,1190,544,1196,540,1190,1124,612,572,586,1150,586,570,586,572,586,570,586,570,586,572
+#
+name: ir 34
+protocol: NEC
+value: 0xC1AAB54A
+bits: 32
+#
+name: ir 35
+protocol: NEC
+value: 0x61D652AD
+bits: 32
+#
+name: ir 36
+protocol: NEC
+value: 0x20F0906F
+bits: 32
+#
+name: ir 37
+protocol: NEC
+value: 0x4CB3C03F
+bits: 32
+#
+name: ir 38
+protocol: NEC
+value: 0xFF4AB5
+bits: 32

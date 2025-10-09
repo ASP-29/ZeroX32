@@ -1,0 +1,1 @@
+{"ssid":"ZeroX32","password":"","channel":5,"hidden":false,"wifistate":false,"hidstate":false,"mscstate":false,"apip":[192,168,1,1],"dnsip":[172,0,0,1],"maxDeauth":10,"maxBeacon":3,"maxProbe":3,"beaconHop":true,"irBruteForceDelay":100,"eviltwinValidation":false,"adminusername":"admin","adminpassword":"1234","led":true,"DuckyAutorun":" "}

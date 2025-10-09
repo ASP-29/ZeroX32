@@ -1,0 +1,240 @@
+#
+name: ir 0
+protocol: NEC
+value: 0x10EF926D
+bits: 32
+#
+name: ir 1
+protocol: NEC
+value: 0x807F02FD
+bits: 32
+#
+name: ir 2
+protocol: NEC
+value: 0xCC13E
+bits: 32
+#
+name: ir 3
+protocol: NEC
+value: 0xE17220DF
+bits: 32
+#
+name: ir 4
+protocol: NEC
+value: 0x40BFA857
+bits: 32
+#
+name: ir 5
+protocol: UNKNOWN
+value: 0x9699E6FB
+bits: 58
+raw: 9086,4428,650,506,598,532,598,532,598,1638,598,1638,650,508,596,534,598,506,624,1638,598,506,624,508,624,1638,604,500,624,1638,598,1638,598,1638,624,1638,598,534,596,508,624,1638,598,506,624,508,624,1638,598,506,624,508,596,1638,624,1638,598,506,624,1638,598,1638,624,520,584,1638,624,508,598,532,598,532,598,506,624,506,598,532,598,532,598,506,624,1638,598,1638,598,1638,624,1638,598,1638,624,1638,596,1640,596,1638,624,14400,9096,2218,598,65535,0,30775,9122,2192,624,65535,0,30775,9122,2218,596,65535,0,30775,9122,2218,596
+#
+name: ir 6
+protocol: NEC
+value: 0x807F32CD
+bits: 32
+#
+name: ir 7
+protocol: UNKNOWN
+value: 0xA2013FB3
+bits: 52
+raw: 9062,4348,622,508,596,480,624,506,624,1612,598,1612,624,480,624,506,598,506,598,1612,624,480,624,506,598,1612,650,480,598,1612,624,1614,622,1612,598,1612,624,506,598,506,598,1612,624,506,598,506,598,1612,624,480,622,508,598,1612,624,1612,624,480,624,1610,626,1610,598,506,624,1586,622,508,596,506,598,508,596,506,622,482,624,480,622,460,644,484,594,1638,624,1612,626,1584,624,1640,596,1588,646,1590,646,1588,622,1612,622,14322,9096,2088,648
+#
+name: ir 8
+protocol: NEC
+value: 0x198629D
+bits: 32
+#
+name: ir 9
+protocol: NEC
+value: 0xCB04F
+bits: 32
+#
+name: ir 10
+protocol: NEC
+value: 0x807F946B
+bits: 32
+#
+name: ir 11
+protocol: NEC
+value: 0xCC007887
+bits: 32
+#
+name: ir 12
+protocol: NEC
+value: 0xC1AA9966
+bits: 32
+#
+name: ir 13
+protocol: NEC
+value: 0xFBF20D
+bits: 32
+#
+name: ir 14
+protocol: NEC
+value: 0x4FB6A95
+bits: 32
+#
+name: ir 15
+protocol: NEC
+value: 0xC12FC13E
+bits: 32
+#
+name: ir 16
+protocol: NEC_LIKE
+value: 0x61008C00
+bits: 32
+#
+name: ir 17
+protocol: UNKNOWN
+value: 0xCD067713
+bits: 60
+raw: 9034,4452,624,560,572,560,572,558,570,1692,570,1690,546,586,546,584,546,586,544,1690,572,562,568,560,572,1690,570,560,572,1690,546,1716,546,1716,546,1664,598,560,570,560,570,1690,572,560,546,584,546,1716,546,586,544,586,544,1690,572,1690,582,548,572,1692,572,1690,544,586,544,1716,546,586,546,584,546,560,570,560,572,560,570,560,570,560,574,558,546,1716,572,1668,568,1690,570,1666,596,1664,598,1664,598,1664,650,1612,570,13980,9042,2216,598,65535,0,30645,9042,2244,574,65535,0,30665,9044,2218,596,65535,0,30645,9042,2244,572,65535,0,30671,9094,2164,598
+#
+name: ir 18
+protocol: NEC
+value: 0x4CB328D7
+bits: 32
+#
+name: ir 19
+protocol: NEC
+value: 0xC03FA857
+bits: 32
+#
+name: ir 20
+protocol: SAMSUNG
+value: 0xE0E0D02F
+bits: 32
+#
+name: ir 21
+protocol: NEC
+value: 0x1897926D
+bits: 32
+#
+name: ir 22
+protocol: NEC
+value: 0x40BF02FD
+bits: 32
+#
+name: ir 23
+protocol: NEC
+value: 0x1DEA7887
+bits: 32
+#
+name: ir 24
+protocol: NEC
+value: 0x4CB3F10E
+bits: 32
+#
+name: ir 25
+protocol: NEC
+value: 0xFF39C6
+bits: 32
+#
+name: ir 26
+protocol: NEC
+value: 0xE1A20AF5
+bits: 32
+#
+name: ir 27
+protocol: NEC
+value: 0xFFFF4FB0
+bits: 32
+#
+name: ir 28
+protocol: DENON
+value: 0x2A4C0288E862
+bits: 48
+#
+name: ir 29
+protocol: NEC
+value: 0xF20AD02F
+bits: 32
+#
+name: ir 30
+protocol: NEC
+value: 0x807F906F
+bits: 32
+#
+name: ir 31
+protocol: NEC
+value: 0x212FF40B
+bits: 32
+#
+name: ir 32
+protocol: NEC
+value: 0x40BF609F
+bits: 32
+#
+name: ir 33
+protocol: NEC
+value: 0xD153629D
+bits: 32
+#
+name: ir 34
+protocol: NEC
+value: 0x81C00FF0
+bits: 32
+#
+name: ir 35
+protocol: NEC
+value: 0xBD08F7
+bits: 32
+#
+name: ir 36
+protocol: NEC
+value: 0xF20A50AF
+bits: 32
+#
+name: ir 37
+protocol: SHARP
+value: 0x5AA2
+bits: 15
+#
+name: ir 38
+protocol: NEC
+value: 0x61A8857A
+bits: 32
+#
+name: ir 39
+protocol: NEC
+value: 0xC19E6
+bits: 32
+#
+name: ir 40
+protocol: UNKNOWN
+value: 0xC810F853
+bits: 30
+raw: 2326,586,570,586,1150,586,572,586,570,1166,572,1190,1124,612,1124,610,1124,612,570,586,1150,586,572,588,570,586,572,586,570,65535,0,9461,2308,612,572,590,1146,584,572,586,570,1192,544,1190,1124,612,1150,586,1152,584,596,560,1150,586,570,586,570,586,572,586,570
+#
+name: ir 41
+protocol: NEC
+value: 0xC1AACD32
+bits: 32
+#
+name: ir 42
+protocol: NEC
+value: 0x61D612ED
+bits: 32
+#
+name: ir 43
+protocol: NEC
+value: 0x20F0C03F
+bits: 32
+#
+name: ir 44
+protocol: NEC
+value: 0x4CB330CF
+bits: 32
+#
+name: ir 45
+protocol: UNKNOWN
+value: 0x80A7552B
+bits: 17
+raw: 1220,1192,412,586,412,902,412,2400,414,1506,414,586,412,586,414,902,412,1480,440,2664,440,2058,440,558,440,65535,0,22197,360,928,334,348,336,638,334
+#
+name: ir 46
+protocol: SONY
+value: 0x642A
+bits: 15
