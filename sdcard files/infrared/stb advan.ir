@@ -1,0 +1,25 @@
+#
+name: up
+protocol: NEC
+value: 0xFF609F
+bits: 32
+#
+name: down
+protocol: NEC
+value: 0xFF6897
+bits: 32
+#
+name: v+
+protocol: NEC
+value: 0xFFD827
+bits: 32
+#
+name: v-
+protocol: NEC
+value: 0xFFDA25
+bits: 32
+#
+name: power
+protocol: NEC
+value: 0xFF5AA5
+bits: 32

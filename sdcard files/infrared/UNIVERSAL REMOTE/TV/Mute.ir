@@ -1,0 +1,381 @@
+Filetype: IR signals file
+Version: 1
+
+name: ir_1
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00
+#
+name: ir_2
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 14 00 00 00
+#
+name: ir_3
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 20 03 00 00
+#
+name: ir_4
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 12 00 00 00
+#
+name: ir_5
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 16 E9 00 00
+#
+name: ir_6
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 0F F0 00 00
+#
+name: ir_7
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 08 F7 00 00
+#
+name: ir_8
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4E B1 00 00
+#
+name: ir_9
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 56 00 00 00
+#
+name: ir_10
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 01 FE 00 00
+#
+name: ir_11
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 0B 00 00 00
+#
+name: ir_12
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 08 00 00 00
+#
+name: ir_13
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0D 00 00 00
+#
+name: ir_14
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+#
+name: ir_15
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 5C A3 00 00
+#
+name: ir_16
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0E F1 00 00
+#
+name: ir_17
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4C B3 00 00
+#
+name: ir_18
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 64 9B 00 00
+#
+name: ir_19
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 04 00 00 00
+#
+name: ir_20
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+#
+name: ir_21
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 0B 00 00 00
+#
+name: ir_22
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 97 68 00 00
+#
+name: ir_23
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 20 DF 00 00
+#
+name: ir_24
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: ir_25
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1C 00 00 00
+#
+name: ir_26
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 17 00 00 00
+#
+name: ir_27
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: DF 00 00 00
+#
+name: ir_28
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0D 00 00 00
+#
+name: ir_29
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 50 AF 00 00
+#
+name: ir_30
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 53 00 00 00
+#
+name: ir_31
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0E F1 00 00
+#
+name: ir_32
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0D 00 00 00
+#
+name: ir_33
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 01 FE 00 00
+#
+name: ir_34
+type: parsed
+protocol: Samsung32
+address: 17 00 00 00
+command: 15 00 00 00
+#
+name: ir_35
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: ir_36
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 1C 00 00 00
+#
+name: ir_37
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 18 00 00 00
+#
+name: ir_38
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0F F0 00 00
+#
+name: ir_39
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 41 00 00 00
+#
+name: ir_40
+type: parsed
+protocol: NECext
+address: A0 B7 00 00
+command: AF 50 00 00
+#
+name: ir_41
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: C5 3A 00 00
+#
+name: ir_42
+type: parsed
+protocol: NEC
+address: 28 00 00 00
+command: 10 00 00 00
+#
+name: ir_43
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 10 00 00 00
+#
+name: ir_44
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 04 FB 00 00
+#
+name: ir_45
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 278 1812 276 762 282 758 276 765 279 761 273 1818 281 1809 279 1811 277 762 282 1809 279 760 274 766 278 762 282 1809 279 760 274 44279 276 1813 275 763 281 759 275 766 278 762 272 768 276 764 280 760 274 1817 271 768 276 1815 273 1817 271 1819 280 759 275 1816 272 44276 279 1812 276 763 281 758 276 765 279 761 273 1818 281 1810 278 1811 277 762 272 1819 279 760 274 766 278 762 282 1809 279 760 274
+#
+name: ir_46
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9348 4516 657 501 660 502 659 502 659 502 688 474 634 527 634 1662 634 528 633 1687 634 1660 608 1664 631 1687 608 1687 609 1686 609 552 609 1687 608 553 632 529 633 529 632 530 631 1665 630 531 630 531 631 531 630 1666 630 1666 630 1666 630 1666 630 531 631 1666 630 1666 630 1666 630
+#
+name: ir_47
+type: parsed
+protocol: Samsung32
+address: 3E 00 00 00
+command: 0D 00 00 00
+#
+name: ir_48
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: FC 00 00 00
+#
+name: ir_49
+type: parsed
+protocol: NECext
+address: 04 F4 00 00
+command: 09 F6 00 00
+#
+name: ir_50
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 14 00 00 00
+#
+name: ir_51
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 11 00 00 00
+#
+name: ir_52
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5C A3 00 00
+#
+name: ir_53
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 10 00 00 00
+#
+name: ir_54
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 5F 00 00 00
+#
+name: ir_55
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: D0 00 00 00
+#
+name: ir_56
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 0E F1 00 00
+#
+name: ir_57
+type: parsed
+protocol: NECext
+address: 01 3E 00 00
+command: 0B F4 00 00
+#
+name: ir_58
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 04 00 00 00
+#
+name: ir_59
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 17 00 00 00
+#
+name: ir_60
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
+#
+name: ir_61
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 49 00 00 00
+#
+name: ir_62
+type: parsed
+protocol: NECext
+address: 00 F7 00 00
+command: 11 EE 00 00
+#
+name: ir_63
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1A E5 00 00
+#
