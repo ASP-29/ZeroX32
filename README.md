@@ -145,7 +145,7 @@ Powered by ESP3-S3 for main microcontroller
     | LC Technology RF Modules           | ✅         | Cheap TX/RX modules compatible with Arduino           |
  - Read and decoded supported protocol and save it
  - Read raw for uknown protocol and save it
- - already some preset with modulation AM270,AM650,FM238,FM476,FM95,FM15k,Pagers,HND_1,HND_2 thanks for derek jamieson explanation wiki https://github.com/jamisonderek/flipper-zero-tutorials/wiki/Sub-GHz
+ - already some preset with modulation AM270,AM650,FM238,FM476,FM95,FM15k,Pagers,HND_1,HND_2 Thanks to Derek Jamieson for the wiki explanation https://github.com/jamisonderek/flipper-zero-tutorials/wiki/Sub-GHz
  - Supported Flipper Zero .sub file (only raw format) can be transmitted/replayed
  - Jammer feature with continues wave
  - Frequency analyzer for detecting your keyfob frequency if you don't know it
