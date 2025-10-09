@@ -1,5 +1,6 @@
 #ZeroX32 Project
-Feature
+A projects that were created as multi-tool projects such as flipper zero and well-known open source projects such as bruce firmware
+Powered by ESP3-S3 for main microcontroller
 ##WiFi
   - Scanning ap,station,and finding hidden ssid name
   - Deauth attack on selected target
