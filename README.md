@@ -1,60 +1,60 @@
-#ZeroX32 Project
-A projects that were created as multi-tool projects such as flipper zero and well-known open source projects such as bruce firmware
-Powered by ESP3-S3 for main microcontroller
+# ZeroX32 Project
 
+ZeroX32 is a multi-tool firmware project inspired by devices like Flipper Zero and community firmware such as Bruce Firmware.  
+The project is powered by ESP32-S3 as the main microcontroller.
+> ⚠️ **Responsible use:** This project includes features that can be misused (for example: deauthentication, captive portals, BLE/packet spam, jamming). Use these features **only** on devices and networks you own or where you have explicit permission. Comply with local laws and regulations.
 
-##WiFi
-  - Scanning ap,station,and finding hidden ssid name
-  - Deauth attack on selected target
-  - Wifi beacon attack with name custom ssid list and random name
-  - Evil portal with html page up to 5 different page for each device and domains name can be customized
-  - Packet Monitor for detecting deauth attack from other attacker in nearby
+## WiFi
+- Scanning for access points, station mode, and discovering hidden SSIDs
+- Deauthentication (deauth) testing against selected targets
+- WiFi beacon attacks with customizable SSID lists and random names
+- Captive (evil) portal with up to 5 different HTML pages, and customizable domain names
+- Packet monitor for detecting nearby deauth attacks from other actors
 
+## Bluetooth
+- BLE spam and pairing tests, including iOS, Swift Pair, Samsung, and Google Fast Pair
+- Remote controller functionality (media control and mouse emulation)
 
-##Bluetooth
-  - Ble spam Ios,swift pair,samsung and google fast pair
-  - Remote controller that can act like Media controll and mouse
+## Infrared
+- Read custom IR remotes
+- Load IR remote data from files; compatible with Flipper Zero IR database
+- Send IR data in sequences with configurable intervals (used for brute-force testing)
+- Universal remote functionality similar to Flipper Zero — see SD card files under `infrared/UNIVERSAL REMOTE/...`
 
-
-##Infrared
-  - Read for custom ir remote
-  - Load the ir remote data from files,also compatible with flipper zero ir database
-  - Sending each ir data sequenced with interval for performing bruteforce
-  - Universal remote like flipper zero,see the sdcard files under infrared/UNIVERSAL REMOTE/..
-  Supported IR protocol
-    | Protocol               | Send | Receive | Description                        |
-    |------------------------|------|---------|------------------------------------|
-    | NEC                    | ✅   | ✅       | Common in many TV remotes          |
-    | SONY                   | ✅   | ✅       | Sony TVs, audio systems            |
-    | SAMSUNG                | ✅   | ✅       | Samsung TVs and AC units           |
-    | LG                     | ✅   | ✅       | LG TVs and air conditioners        |
-    | JVC                    | ✅   | ✅       |                                    |
-    | PANASONIC              | ✅   | ✅       | Includes Panasonic AC              |
-    | MITSUBISHI_AC          | ✅   | ✅       | Mitsubishi air conditioners        |
-    | DAIKIN                 | ✅   | ✅       | Daikin AC (multiple variants)      |
-    | FUJITSU_AC             | ✅   | ✅       | Fujitsu air conditioners           |
-    | TOSHIBA_AC             | ✅   | ✅       | Toshiba air conditioners           |
-    | HITACHI_AC             | ✅   | ✅       | Hitachi air conditioners           |
-    | GREE                   | ✅   | ✅       | Gree air conditioners              |
-    | WHIRLPOOL_AC           | ✅   | ✅       | Whirlpool air conditioners         |
-    | COOLIX                 | ✅   | ✅       | Used in TCL, Nikai, and similar    |
-    | MIDEA                  | ✅   | ✅       | Midea air conditioners             |
-    | RC5 / RC6              | ✅   | ✅       | Used in Philips and others         |
-    | SHARP                  | ✅   | ✅       | Sharp TVs                          |
-    | SANYO_AC               | ✅   | ✅       | Sanyo air conditioners             |
-    | CARRIER_AC             | ✅   | ✅       | Carrier air conditioners           |
-    | AUX                    | ✅   | ✅       | AUX brand ACs                      |
-    | VOLTAS                 | ✅   | ✅       | Voltas air conditioners            |
-    | YORK                   | ✅   | ✅       | York ACs                           |
-    | TECO                   | ✅   | ✅       | Teco ACs                           |
-    | ZEPEAL                 | ✅   | ✅       |                                    |
-    | BOSE                   | ✅   | ✅       |                                    |
-    | PIONEER                | ✅   | ✅       |                                    |
-    | RCMM                   | ✅   | ✅       | Used in some advanced remotes      |
-    | RAW / PRONTO           | ✅   | ❌       | Manual/custom IR signal sending    |
-    | GLOBALCACHE            | ✅   | ❌       | Sends in GlobalCache format        |
-    | SHERWOOD               | ✅   | ❌       | Send-only protocol                 |
-    | LEGOPF                 | ✅   | ✅       | LEGO Power Functions (IR motors)   |
+  ### Supported IR protocols
+| Protocol               | Send | Receive | Description                        |
+|------------------------|------|---------|------------------------------------|
+| NEC                    | ✅   | ✅       | Common in many TV remotes          |
+| SONY                   | ✅   | ✅       | Sony TVs, audio systems            |
+| SAMSUNG                | ✅   | ✅       | Samsung TVs and AC units           |
+| LG                     | ✅   | ✅       | LG TVs and air conditioners        |
+| JVC                    | ✅   | ✅       |                                    |
+| PANASONIC              | ✅   | ✅       | Includes Panasonic AC              |
+| MITSUBISHI_AC          | ✅   | ✅       | Mitsubishi air conditioners        |
+| DAIKIN                 | ✅   | ✅       | Daikin AC (multiple variants)      |
+| FUJITSU_AC             | ✅   | ✅       | Fujitsu air conditioners           |
+| TOSHIBA_AC             | ✅   | ✅       | Toshiba air conditioners           |
+| HITACHI_AC             | ✅   | ✅       | Hitachi air conditioners           |
+| GREE                   | ✅   | ✅       | Gree air conditioners              |
+| WHIRLPOOL_AC           | ✅   | ✅       | Whirlpool air conditioners         |
+| COOLIX                 | ✅   | ✅       | Used in TCL, Nikai, and similar    |
+| MIDEA                  | ✅   | ✅       | Midea air conditioners             |
+| RC5 / RC6              | ✅   | ✅       | Used in Philips and others         |
+| SHARP                  | ✅   | ✅       | Sharp TVs                          |
+| SANYO_AC               | ✅   | ✅       | Sanyo air conditioners             |
+| CARRIER_AC             | ✅   | ✅       | Carrier air conditioners           |
+| AUX                    | ✅   | ✅       | AUX brand ACs                      |
+| VOLTAS                 | ✅   | ✅       | Voltas air conditioners            |
+| YORK                   | ✅   | ✅       | York ACs                           |
+| TECO                   | ✅   | ✅       | Teco ACs                           |
+| ZEPEAL                 | ✅   | ✅       |                                    |
+| BOSE                   | ✅   | ✅       |                                    |
+| PIONEER                | ✅   | ✅       |                                    |
+| RCMM                   | ✅   | ✅       | Used in some advanced remotes      |
+| RAW / PRONTO           | ✅   | ❌       | Manual/custom IR signal sending    |
+| GLOBALCACHE            | ✅   | ❌       | Sends in GlobalCache format        |
+| SHERWOOD               | ✅   | ❌       | Send-only protocol                 |
+| LEGOPF                 | ✅   | ✅       | LEGO Power Functions (IR motors)   |
 
     For legacy list
     | Index | Protocol              | Index | Protocol               |
@@ -124,59 +124,75 @@ Powered by ESP3-S3 for main microcontroller
     | 63    | GOODWEATHER           | 127   | BLUESTARHEAVY          |
     | 64    | INAX                  |       |                        |
 
-    You can load ir file from Flipper Zero
-    Related repo https://github.com/logickworkshop/Flipper-IRDB
-    Thanks for amazing library created by @crankyoldgit https://github.com/crankyoldgit/IRremoteESP8266
+You can also load IR files from Flipper Zero. Related repo: https://github.com/logickworkshop/Flipper-IRDB
 
-##Sub-Ghz
-  - Supported protocol
-    | Device / Protocol Type              | Supported | Notes                                                  |
-    |------------------------------------|-----------|--------------------------------------------------------|
-    | Intertechno (old models)           | ✅         | Fixed code only, rolling code not supported           |
-    | Nexa (older versions)              | ✅         | Basic RF switches, works with RCSwitch                |
-    | Elro RF switches                   | ✅         | Common 433MHz devices                                 |
-    | Brennenstuhl remote plugs          | ✅         | Some models supported                                 |
-    | Chacon                             | ✅         | Similar to Intertechno                                |
-    | KlikAanKlikUit (KAKU)              | ✅         | Limited to old models without rolling code            |
-    | HomeEasy (UK, old models)          | ✅         | Older versions supported                              |
-    | Generic 433 MHz Chinese remotes    | ✅         | Widely used in low-cost RF transmitters/receivers    |
-    | EV1527 RF modules                  | ✅         | Very common encoder chip (fixed code)                |
-    | PT2262 / SC2262 / HX2262           | ✅         | Basic encoding chip used in many RF devices           |
-    | LC Technology RF Modules           | ✅         | Cheap TX/RX modules compatible with Arduino           |
- - Read and decoded supported protocol and save it
- - Read raw for uknown protocol and save it
- - already some preset with modulation AM270,AM650,FM238,FM476,FM95,FM15k,Pagers,HND_1,HND_2 Thanks to Derek Jamieson for the wiki explanation https://github.com/jamisonderek/flipper-zero-tutorials/wiki/Sub-GHz
- - Supported Flipper Zero .sub file (only raw format) can be transmitted/replayed
- - Jammer feature with continues wave
- - Frequency analyzer for detecting your keyfob frequency if you don't know it
- - related repo
-   https://github.com/tobiabocchi/flipperzero-bruteforce
-   https://github.com/UberGuidoZ/Flipper
+Thanks to the amazing `IRremoteESP8266` library by @crankyoldgit: https://github.com/crankyoldgit/IRremoteESP8266
 
+---
+## Sub-GHz
+### Supported RF / devices
+| Device / Protocol Type              | Supported | Notes                                                  |
+|------------------------------------|-----------|--------------------------------------------------------|
+| Intertechno (old models)           | ✅         | Fixed code only; rolling code not supported            |
+| Nexa (older versions)              | ✅         | Basic RF switches                                      |
+| Elro RF switches                   | ✅         | Common 433 MHz devices                                 |
+| Brennenstuhl remote plugs          | ✅         | Some models supported                                  |
+| Chacon                             | ✅         | Similar to Intertechno                                 |
+| KlikAanKlikUit (KAKU)              | ✅         | Old models without rolling code                        |
+| HomeEasy (UK, old models)          | ✅         | Older versions supported                               |
+| Generic 433 MHz Chinese remotes    | ✅         | Widely used in low-cost RF modules                     |
+| EV1527 RF modules                  | ✅         | Common fixed-code encoder chip                         |
+| PT2262 / SC2262 / HX2262           | ✅         | Basic encoder chips used in many RF devices            |
+| LC Technology RF Modules           | ✅         | Cheap TX/RX modules compatible with Arduino            |
 
-##Bad USB
- - Running your selected ducky script payload,inspired by spacehuhn's wifi duck project https://github.com/SpacehuhnTech/WiFiDuck and forked repo by wasdwasd0105 https://github.com/wasdwasd0105/SuperWiFiDuck
- - Supported with autorun option when usb is plug in on target
- - Supported with flipper zero payload
- - related repo
-   https://github.com/bst04/payloads_flipperZero
-   https://github.com/MarkCyber/BadUSB
+- Read and decode supported protocols and save them
+- Read raw data for unknown protocols and save it
+- Presets for modulation: `AM270`, `AM650`, `FM238`, `FM476`, `FM95`, `FM15k`, `Pagers`, `HND_1`, `HND_2`
+  - Thanks to Derek Jamieson for the Sub-GHz wiki explanation: https://github.com/jamisonderek/flipper-zero-tutorials/wiki/Sub-GHz
+- Supports Flipper Zero `.sub` files (raw format only) for transmit/replay
+- Jammer feature with continuous wave (use responsibly and legally)
+- Frequency analyzer to detect your keyfob frequency if unknown
 
+Related repos:
+- https://github.com/tobiabocchi/flipperzero-bruteforce
+- https://github.com/UberGuidoZ/Flipper
 
-##File Manager
- - Builtin interactive file explorer can performing load saved files,firmware update,rename,delete and managing html files for evil portal
- - Supported web server for file upload
+---
 
+## Bad USB
+- Run selected Ducky Script payloads (inspired by Spacehuhn's WiFi Duck: https://github.com/SpacehuhnTech/WiFiDuck and fork by wasdwasd0105: https://github.com/wasdwasd0105/SuperWiFiDuck)
+- Autorun option when USB is plugged into the target (use responsibly)
+- Supports Flipper Zero payloads
 
-##NRF24L01
- - Can performing a signal jamming like bluetooth,wifi and related connectivity around 2.4Ghz
- - Signal Analyzer / Spectrum Analyzer for monitoring 2.4ghz signal traffic
- - Inspired by cifertech's project https://github.com/cifertech/nRFBox
+Related repos:
+- https://github.com/bst04/payloads_flipperZero
+- https://github.com/MarkCyber/BadUSB
 
+---
 
-##Headless Controll
- - can be controlled headless but with limited features with a web server
- - Screen mirroring feature like flipper zero,see this video https://www.youtube.com/shorts/sRir4fzV7GA
+## File Manager
+- Built-in interactive file explorer to load saved files, perform firmware updates, rename, delete, and manage HTML files for captive portals
+- Web server support for file upload
+
+---
+
+## NRF24L01
+- Can perform signal operations around 2.4 GHz (e.g., monitoring, jamming)
+- Signal / spectrum analyzer for monitoring 2.4 GHz traffic
+- Inspired by cifertech's nRFBox: https://github.com/cifertech/nRFBox
+
+---
+
+## Headless Control
+- Headless control with limited features via a web server
+- Screen mirroring feature similar to Flipper Zero — see: https://www.youtube.com/shorts/sRir4fzV7GA
+
+---
+
+## License & Disclaimer
+- Firmware binaries and certain release assets are **proprietary**.
+- Source code included in this repository is provided for **personal or educational use only** and may **not** be redistributed without permission.
+- The project is provided "as-is". The author is not responsible for misuse. Always comply with local laws and obtain permission before testing on networks or devices you do not own.
 
 I will update other features and documentation over time
 for fastest information update you can subscribe my youtube channel https://www.youtube.com/@asp-29blackhat18 and https://www.youtube.com/@ASP29Tech
