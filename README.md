@@ -10,6 +10,7 @@ The project is powered by ESP32-S3 as the main microcontroller.
 - WiFi beacon attacks with customizable SSID lists and random names
 - Captive (evil) portal with up to 5 different HTML pages, and customizable domain names
 - Packet monitor for detecting nearby deauth attacks from other actors
+- Supported 2.4ghz and 5ghz band,with bw16/RTL8720DN addons
 
 ## Bluetooth
 - BLE spam and pairing tests, including iOS, Swift Pair, Samsung, and Google Fast Pair
