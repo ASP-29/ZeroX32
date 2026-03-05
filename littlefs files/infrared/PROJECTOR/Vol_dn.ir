@@ -1,0 +1,315 @@
+Filetype: IR signals file
+Version: 1
+
+name: ir_1
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 49 00 00 00
+#
+name: ir_2
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 40 00 00 00
+#
+name: ir_3
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 83 7C 00 00
+#
+name: ir_4
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 04 FB 00 00
+#
+name: ir_5
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 15 00 00 00
+#
+name: ir_6
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9092 4439 620 506 619 506 618 530 593 1627 620 1630 643 504 620 505 618 506 617 1630 617 508 616 508 616 1632 616 508 617 1631 616 1631 616 1631 616 1631 616 509 616 508 616 1631 616 509 616 509 615 1632 616 509 616 508 616 1631 616 1631 616 508 616 1631 615 1631 616 509 615 1632 615 509 616 509 616 509 616 509 616 509 616 510 615 509 616 509 616 1631 616 1631 615 1631 616 1631 615 1631 615 1631 615 1631 615 1631 615 14434 9088 2191 615 96339 9115 2189 616 96343 9117 2189 616 96343 9114 2189 616
+# AV-Mute
+name: ir_7
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9092 4439 620 506 618 506 618 530 594 1627 619 1629 643 505 619 505 619 506 617 1629 617 508 616 508 616 1631 616 508 616 1630 616 1630 616 1630 617 1630 616 1630 616 1631 616 508 616 508 616 508 616 1631 616 508 617 508 616 508 616 508 616 1630 616 1631 615 1631 616 508 616 1631 616 508 617 508 616 509 615 509 616 508 616 509 615 509 616 508 616 1631 615 1631 615 1631 616 1631 615 1631 615 1631 615 1631 615 1631 616 14433 9088 2191 615
+#
+name: ir_8
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 4C 00 00 00
+#
+name: ir_9
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9047 4362 621 486 622 463 645 490 622 1609 622 1604 622 487 620 487 621 491 622 1604 622 484 625 490 621 1605 649 463 621 1609 620 1611 621 1608 622 1605 621 486 622 491 622 1604 621 487 621 492 620 1604 621 488 621 492 620 1609 622 1604 621 492 622 1609 620 1605 621 491 622 1603 622 488 621 488 620 488 620 488 621 488 620 487 622 485 621 492 596 1635 621 1609 622 1585 643 1611 620 1608 621 1610 619 1611 620 1619 619 14332 9074 2109 647
+#
+name: ir_10
+type: parsed
+protocol: NECext
+address: 80 19 00 00
+command: 46 B9 00 00
+#
+name: ir_11
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0D F2 00 00
+#
+name: ir_12
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 29 00 00 00
+#
+name: ir_13
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 1E E1 00 00
+#
+name: ir_14
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 99 66 00 00
+#
+name: ir_15
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 4F B0 00 00
+#
+name: ir_16
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 56 00 00 00
+#
+name: ir_17
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 83 7C 00 00
+#
+name: ir_18
+type: parsed
+protocol: NECext
+address: 86 00 00 00
+command: 31 00 00 00
+#
+name: ir_19
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9028 4482 593 563 569 561 571 558 564 1696 568 1690 564 566 566 563 569 561 571 1688 566 563 569 561 571 1688 566 563 569 1690 564 1695 569 1689 565 1668 596 560 562 568 564 1695 569 560 562 568 564 1695 569 560 562 568 564 1695 569 1690 564 566 566 1692 572 1687 567 563 569 1690 564 566 566 564 568 562 570 559 563 567 565 565 567 562 570 560 562 1696 568 1665 589 1670 594 1665 589 1670 594 1664 590 1669 647 1612 590 13987 9031 2220 590 96223 9033 2217 593 96223 9034 2218 592 96225 9032 2219 591 96221 9087 2164 595
+#
+name: ir_20
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 14 00 00 00
+# OFF
+name: ir_21
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 4E B1 00 00
+#
+name: ir_22
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 15 00 00 00
+# OFF
+name: ir_23
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9075 4307 677 433 675 456 651 461 651 1579 650 1576 649 459 649 460 648 465 648 1578 647 461 622 491 622 1604 647 465 647 1583 622 1608 647 1579 647 461 647 466 622 1604 647 465 647 1579 647 461 645 463 648 465 648 1583 646 1580 646 466 647 1579 622 491 647 1583 622 1608 647 1579 647 461 647 461 622 486 622 486 647 461 647 462 646 462 622 491 646 1584 622 1608 647 1584 621 1608 647 1583 646 1584 647 1584 646 1592 622 14330 9047 2137 621
+#
+name: ir_24
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+#
+name: ir_25
+type: parsed
+protocol: NECext
+address: 18 E9 00 00
+command: 49 B6 00 00
+#
+name: ir_26
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 40 00 00 00
+#
+name: ir_27
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 1E E1 00 00
+#
+name: ir_28
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8F 00 00 00
+#
+name: ir_29
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9C 00 00 00
+#
+name: ir_30
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 50 AF 00 00
+#
+name: ir_31
+type: parsed
+protocol: NECext
+address: FF FF 00 00
+command: F2 0D 00 00
+#
+name: ir_32
+type: parsed
+protocol: Kaseikyo
+address: 41 54 32 00
+command: 71 01 00 00
+#
+name: ir_33
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9032 4390 556 1592 559 1591 559 463 559 463 558 464 557 465 556 465 557 1593 583 440 581 441 580 1569 581 441 581 1569 580 1569 581 1569 581 1570 580 1596 554 1596 554 468 554 468 554 468 554 442 580 442 580 1596 554 469 553 469 553 1596 554 1596 553 1597 550 1598 553 1598 552 469 551 42155 9008 2107 531 95218 9006 2108 582
+#
+name: ir_34
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0B F4 00 00
+#
+name: ir_35
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+#
+name: ir_36
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 2F D0 00 00
+#
+name: ir_37
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 06 00 00 00
+#
+name: ir_38
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 46 B9 00 00
+#
+name: ir_39
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+#
+name: ir_40
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 10 EF 00 00
+#
+name: ir_41
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0A F5 00 00
+#
+name: ir_42
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 353 1742 355 693 355 1742 355 1742 355 693 355 1744 353 694 354 1743 354 693 355 1743 354 694 354 693 355 694 354 1742 355 695 353 43687 354 1743 354 696 352 1744 353 1744 353 694 354 695 353 1742 355 694 354 1743 354 694 354 1743 354 1742 355 1742 355 694 354 1744 353 41606 351 1745 352 696 352 1746 351 1746 351 697 351 1747 350 696 352 1745 352 698 350 1746 351 698 350 696 352 698 350 1746 351 699 349
+#
+name: ir_43
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9010 4253 564 566 566 1671 566 1699 565 565 539 568 564 566 565 539 566 1699 565 1672 565 566 566 1672 564 567 565 1672 565 567 565 567 564 541 564 1698 566 539 565 567 565 567 562 542 565 1699 564 539 567 1699 565 540 564 1698 566 1672 565 1698 566 1672 565 567 565 1671 565 566 566
+#
+name: ir_44
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 98 67 00 00
+#
+name: ir_45
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 2310 588 571 589 1151 588 571 589 570 1168 572 1169 1150 588 1151 588 1151 590 570 588 1152 588 572 589 570 588 572 588 572 75033 2288 609 573 587 1152 587 572 586 574 1168 571 1167 1152 587 1152 586 1153 587 572 587 1152 587 572 588 571 587 572 587 572
+#
+name: ir_46
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B3 4C 00 00
+#
+name: ir_47
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 48 B7 00 00
+#
+name: ir_48
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 03 FC 00 00
+#
+name: ir_49
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 0C 00 00 00
+#
+name: ir_50
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1221 1172 432 566 433 882 433 2381 432 1486 434 566 433 565 434 882 433 1486 434 2669 434 2065 433 566 433 87779 324 936 326 358 325 647 326
+#
+name: ir_51
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 13 00 00 00
+#
+name: ir_52
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0B F4 00 00
+#
