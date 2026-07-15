@@ -111,6 +111,118 @@ Complete circuit diagram:
 
 ---
 
+FIRMWARE INSTALLATION
+
+Required Files:
+
+Firmware/
+├── bootloader.bin
+├── partitions.bin
+├── firmware.bin
+├── littlefs.bin
+└── flash.bat
+
+
+AUTOMATIC FLASHING (WINDOWS)
+
+Run:
+
+flash.bat
+
+The flashing tool will:
+1. Detect available COM ports.
+2. Select hardware target.
+3. Erase ESP32-S3 flash.
+4. Write firmware and filesystem.
+
+
+Example:
+
+Available COM Ports:
+
+1. COM3
+2. COM11
+
+Choose COM port number: 2
+
+Selected Port: COM11
+
+Select Hardware:
+
+1. ESP32S3
+2. BW16
+
+
+Choose:
+
+1
+
+for ESP32-S3.
+
+
+MANUAL FLASHING
+
+ESP32-S3 flash layout:
+
+bootloader.bin  -> 0x0000
+partitions.bin  -> 0x8000
+firmware.bin    -> 0x10000
+littlefs.bin    -> 0x410000
+
+
+Command:
+
+esptool.exe --chip esp32s3 --port COMx --baud 921600 write_flash ^
+0x0 bootloader.bin ^
+0x8000 partitions.bin ^
+0x10000 firmware.bin ^
+0x410000 littlefs.bin
+
+
+Replace COMx with your ESP32-S3 serial port.
+
+
+LITTLEFS FILESYSTEM
+
+The LittleFS image contains internal ESP32-S3 filesystem data.
+
+Source folder:
+
+littlefs files/
+
+
+Flash location:
+
+Offset : 0x410000
+Size   : 0x3E0000
+
+
+SD CARD FILES
+
+Copy SD card resources manually:
+
+sdcard files/
+
+
+to the root directory of the SD card.
+
+Recommended format:
+
+FAT32
+
+
+FIRST BOOT
+
+After flashing:
+
+1. Insert SD card.
+2. Power on ZeroX32.
+3. Wait for filesystem initialization.
+4. Configure connected modules from the device menu.
+
+
+---
+
 ## WiFi
 - Scanning for access points, station mode, and discovering hidden SSIDs and reveals them
 - Deauthentication (deauth) testing against selected targets
