@@ -3,9 +3,112 @@
 ZeroX32 is a multi-tool firmware project inspired by devices like Flipper Zero and community firmware such as Bruce Firmware.  
 The project is powered by ESP32-S3 as the main microcontroller.
 > ⚠️ **Responsible use:** This project includes features that can be misused (for example: deauthentication, captive portals, BLE/packet spam, jamming). Use these features **only** on devices and networks you own or where you have explicit permission. Comply with local laws and regulations.
+# Hardware Mapping
+
+## ESP32-S3 Pin Configuration
+
+| Function | GPIO | Description |
+|----------|------|-------------|
+| BUTTON UP | GPIO 38 | Navigation Up |
+| BUTTON DOWN | GPIO 35 | Navigation Down |
+| BUTTON RIGHT | GPIO 0 | Navigation Right |
+| BUTTON LEFT | GPIO 45 | Navigation Left |
+| BUTTON A | GPIO 47 | Action Button A |
+| BUTTON B | GPIO 48 | Action Button B |
+| UART RX | GPIO 40 | Serial RX |
+| UART TX | GPIO 39 | Serial TX |
+| Battery ADC | GPIO 2 | Battery Voltage Monitoring |
+| Charge Detect | GPIO 1 | Charging Status |
+| I2C SCL | GPIO 17 | I2C Clock |
+| I2C SDA | GPIO 18 | I2C Data |
+| Status LED | GPIO 21 | Indicator LED |
+
+---
+
+# CC1101 Sub-GHz Module
+
+| CC1101 Pin | ESP32-S3 GPIO |
+|------------|---------------|
+| SCK | GPIO 14 |
+| MOSI | GPIO 13 |
+| MISO | GPIO 12 |
+| CSN | GPIO 10 |
+| GDO2 / RX | GPIO 9 |
+| GDO0 / TX | GPIO 11 |
+
+CC1101 frequency support depends on the module variant used.
+
+---
+
+# NRF24L01 Module
+
+## NRF24L01 Module 1
+
+| NRF24L01 | ESP32-S3 |
+|----------|----------|
+| CE | GPIO 3 |
+| CSN | GPIO 46 |
+
+## NRF24L01 Module 2
+
+| NRF24L01 | ESP32-S3 |
+|----------|----------|
+| CE | GPIO 37 |
+| CSN | GPIO 36 |
+
+---
+
+# SD Card Interface
+
+SD Card uses SDMMC 1-bit mode.
+
+| SD Card Signal | ESP32-S3 GPIO |
+|----------------|---------------|
+| CLK | GPIO 4 |
+| CMD / MOSI | GPIO 5 |
+| DAT0 / MISO | GPIO 6 |
+
+---
+
+# VSPI Interface
+
+| SPI Signal | ESP32-S3 GPIO |
+|------------|---------------|
+| MISO | GPIO 7 |
+| MOSI | GPIO 16 |
+| SCK | GPIO 15 |
+
+---
+
+# PN532 NFC Module
+
+| PN532 | ESP32-S3 |
+|-------|----------|
+| SS | GPIO 8 |
+
+---
+
+# Infrared Interface
+
+| Function | ESP32-S3 GPIO |
+|----------|---------------|
+| IR Receiver | GPIO 42 |
+| IR Transmitter | GPIO 41 |
+
+---
+
+# Hardware Schematic
+
+Complete circuit diagram:
+
+<p align="center">
+<img src="schematic.png" width="900">
+</p>
+
+---
 
 ## WiFi
-- Scanning for access points, station mode, and discovering hidden SSIDs
+- Scanning for access points, station mode, and discovering hidden SSIDs and reveals them
 - Deauthentication (deauth) testing against selected targets
 - WiFi beacon attacks with customizable SSID lists and random names
 - Captive (evil) portal with up to 5 different HTML pages, and customizable domain names
@@ -181,6 +284,15 @@ Related repos:
 - Can perform signal operations around 2.4 GHz (e.g., monitoring, jamming)
 - Signal / spectrum analyzer for monitoring 2.4 GHz traffic
 - Inspired by cifertech's nRFBox: https://github.com/cifertech/nRFBox
+
+---
+
+## NFC with PN532
+- Detecting the card type
+- Dump data -> automatic save to sdcard
+- A/B key bruteforce to unlocking the sectors
+- Clone card -> dump the target card and write to new/blank card
+- Emulation -> coming soon
 
 ---
 
