@@ -105,6 +105,10 @@ Complete circuit diagram:
 <img src="schematic.png" width="900">
 </p>
 
+<p align="center">
+<img src="Schematic_ZeroX32-DIY_2026-07-15.png" width="900">
+</p>
+
 ---
 
 ## WiFi
