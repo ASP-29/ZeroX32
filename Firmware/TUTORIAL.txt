@@ -1,0 +1,4 @@
+1. open flash.bat or flash.cmd
+2. choose the port
+3. choose your hardware esp32s3 or bw16
+4. wait until the process complete
