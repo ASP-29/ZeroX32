@@ -111,115 +111,175 @@ Complete circuit diagram:
 
 ---
 
-FIRMWARE INSTALLATION
+# Firmware Installation
 
-Required Files:
+## Required Files
 
+Before flashing, make sure the firmware folder contains the following files:
+
+```text
 Firmware/
 ├── bootloader.bin
 ├── partitions.bin
 ├── firmware.bin
 ├── littlefs.bin
 └── flash.bat
+```
 
+---
 
-AUTOMATIC FLASHING (WINDOWS)
+# Automatic Flashing (Windows)
 
-Run:
+## Run Flash Tool
 
+Execute:
+
+```bat
 flash.bat
+```
 
-The flashing tool will:
+The flashing tool will automatically:
+
 1. Detect available COM ports.
-2. Select hardware target.
-3. Erase ESP32-S3 flash.
-4. Write firmware and filesystem.
+2. Select the hardware target.
+3. Erase ESP32-S3 flash memory.
+4. Write firmware and filesystem images.
 
-
-Example:
+## Example
 
 Available COM Ports:
 
+```text
 1. COM3
 2. COM11
+```
 
+Select the serial port:
+
+```text
 Choose COM port number: 2
 
 Selected Port: COM11
+```
 
-Select Hardware:
+Select hardware target:
 
+```text
 1. ESP32S3
 2. BW16
-
+```
 
 Choose:
 
+```text
 1
+```
 
-for ESP32-S3.
+for **ESP32-S3**.
 
+---
 
-MANUAL FLASHING
+# Manual Flashing
 
-ESP32-S3 flash layout:
+## ESP32-S3 Flash Layout
 
-bootloader.bin  -> 0x0000
-partitions.bin  -> 0x8000
-firmware.bin    -> 0x10000
-littlefs.bin    -> 0x410000
+| File | Address |
+|------|---------|
+| bootloader.bin | `0x0000` |
+| partitions.bin | `0x8000` |
+| firmware.bin | `0x10000` |
+| littlefs.bin | `0x410000` |
 
+## Flash Command
 
-Command:
+Run:
 
+```bash
 esptool.exe --chip esp32s3 --port COMx --baud 921600 write_flash ^
 0x0 bootloader.bin ^
 0x8000 partitions.bin ^
 0x10000 firmware.bin ^
 0x410000 littlefs.bin
+```
 
+Replace:
 
-Replace COMx with your ESP32-S3 serial port.
+```text
+COMx
+```
 
+with your ESP32-S3 serial port.
 
-LITTLEFS FILESYSTEM
+Example:
+
+```bash
+--port COM11
+```
+
+---
+
+# LittleFS Filesystem
 
 The LittleFS image contains internal ESP32-S3 filesystem data.
 
-Source folder:
+## Source Folder
 
+```text
 littlefs files/
+```
 
+## Flash Location
 
-Flash location:
+| Parameter | Value |
+|-----------|-------|
+| Offset | `0x410000` |
+| Size | `0x3E0000` |
 
-Offset : 0x410000
-Size   : 0x3E0000
+---
 
-
-SD CARD FILES
+# SD Card Files
 
 Copy SD card resources manually:
 
+```text
 sdcard files/
+```
 
+to the **root directory** of the SD card.
 
-to the root directory of the SD card.
+## Recommended Format
 
-Recommended format:
-
+```text
 FAT32
+```
 
+Example structure:
 
-FIRST BOOT
+```text
+SD Card/
+├── file1
+├── file2
+└── folders/
+```
 
-After flashing:
+---
 
-1. Insert SD card.
-2. Power on ZeroX32.
+# First Boot
+
+After successful flashing:
+
+1. Insert the SD card.
+2. Power on **ZeroX32**.
 3. Wait for filesystem initialization.
 4. Configure connected modules from the device menu.
 
+---
+
+## Notes
+
+- Use a stable USB connection during flashing.
+- Avoid disconnecting power while writing firmware.
+- Make sure the correct hardware target is selected before flashing.
 
 ---
 
