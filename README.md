@@ -483,6 +483,15 @@ Related repos:
 - Source code included in this repository is provided for **personal or educational use only** and may **not** be redistributed without permission.
 - The project is provided "as-is". The author is not responsible for misuse. Always comply with local laws and obtain permission before testing on networks or devices you do not own.
 
+Because I'm from Indonesia, and some people have been redistributing this firmware without my permission—without sharing any profits or even giving proper credit—I have decided to limit this version.
+
+This firmware will freeze after 10 minutes of use. To continue using it, you will need to restart the device or press the **RST** button on the ESP32-S3.
+
+The full version is available with a one-time payment of **$4**.
+
+Thank you for your understanding, and I apologize for any inconvenience this may cause.
+
+
 I will update other features and documentation over time
 for fastest information update you can subscribe my youtube channel https://www.youtube.com/@asp-29blackhat18 and https://www.youtube.com/@ASP29Tech
 join my group if you want asking some information directly https://t.me/X32Project
