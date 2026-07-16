@@ -487,7 +487,7 @@ Because I'm from Indonesia, and some people have been redistributing this firmwa
 
 This firmware will freeze after 10 minutes of use. To continue using it, you will need to restart the device or press the **RST** button on the ESP32-S3.
 
-The full version is available with a one-time payment of **$4**.
+The full version is available with a one-time payment, any price is acceptable for development. Payments can be made via PayPal and crypto.
 
 Thank you for your understanding, and I apologize for any inconvenience this may cause.
 
